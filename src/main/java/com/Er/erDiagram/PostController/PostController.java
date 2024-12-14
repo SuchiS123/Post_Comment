@@ -24,6 +24,7 @@ public class PostController {
     public String CreatePost(@RequestBody Post post)
     {
         postRepository.save(post);
+        System.out.println(postRepository+"dummy");
         return "Post Created Successfully";
     }
 
