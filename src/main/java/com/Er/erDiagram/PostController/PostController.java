@@ -25,6 +25,11 @@ public class PostController {
     {
         postRepository.save(post);
         System.out.println(postRepository+"dummy");
+                System.out.println(postRepository+"dummy");
+                System.out.println(postRepository+"dummy");
+         System.out.println(postRepository+"dummy");
+
+
         return "Post Created Successfully";
     }
 
